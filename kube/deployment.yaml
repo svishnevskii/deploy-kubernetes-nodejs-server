@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kube-bar-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kube-bar-app
+  template:
+    metadata:
+      labels:
+        app: kube-bar-app
+    spec:
+      containers:
+        - name: kube-bar-app
+          image: 21011995/nodejs-bar:v1
+          ports:
+          - containerPort: 3002
+            protocol: TCP
