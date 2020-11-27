@@ -3,7 +3,7 @@ let app = express();
 
 app.get('/', (req, res) => {
 
-    res.send('Hello from Bar App<br/>' + new Date());
+    res.send('Hello from NodeJs App<br/>' + new Date());
 
 });
 

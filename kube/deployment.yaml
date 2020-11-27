@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kube-bar-app
-          image: 21011995/nodejs-bar:v1
+          image: svishnevskii/nodejs-server:v1
           ports:
           - containerPort: 3002
             protocol: TCP
