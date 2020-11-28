@@ -1,5 +1,9 @@
 
 # Deploy a NodeJS Server Using Kubernetes
+
+[![HitCount](http://hits.dwyl.com/svishnevskii/deploy-kubernetes-nodejs-server.svg)](http://hits.dwyl.com/svishnevskii/deploy-kubernetes-nodejs-server)
+[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/svishnevskii/deploy-kubernetes-nodejs-server/issues)
+
 Hello, today we will figure out how Kubernetes works using the example of a small web server on NodeJS. \
 This small case will help you familiarize yourself with the concept of clustering in k8s.
 
